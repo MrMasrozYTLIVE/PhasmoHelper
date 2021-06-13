@@ -7,7 +7,7 @@ namespace PhasmoHelper
     {
         public static void Msg(String text, int mode = 0)
         {
-            if (CheatToggles.enableDebug && mode > 0) { 
+            if (ModToggles.enableDebug && mode > 0) { 
                 if(debugMode1 && mode == 1)
                     MelonLogger.Log($"[+] {text}");
                 if (debugMode2 && mode == 2)

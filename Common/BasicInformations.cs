@@ -9,7 +9,7 @@ namespace PhasmoHelper
         {
             if (Main.initializedScene > 1)
             {
-                if (Main.levelController != null && Main.ghostInfo != null && firstRun && CheatToggles.enableBIGhost)
+                if (Main.levelController != null && Main.ghostInfo != null && firstRun && ModToggles.enableBIGhost)
                 {
                     Debug.Msg("ghostNameAge", 3);
                     if (Main.ghostInfo.field_Public_ValueTypePublicSealedObInBoStInBoInInInUnique_0.field_Public_String_0 != "" && Main.ghostInfo.field_Public_ValueTypePublicSealedObInBoStInBoInInInUnique_0.field_Public_Int32_0 > 0)
@@ -26,7 +26,7 @@ namespace PhasmoHelper
 
         public static void EnablePlayer()
         {
-            if (Main.initializedScene > 1 && (CheatToggles.enableBIPlayer || CheatToggles.enableBI) && Main.myPlayer.field_Public_PlayerSanity_0.field_Public_Single_0 > -1)
+            if (Main.initializedScene > 1 && (ModToggles.enableBIPlayer || ModToggles.enableBI) && Main.myPlayer.field_Public_PlayerSanity_0.field_Public_Single_0 > -1)
             {
                 Debug.Msg("myPlayerSanity", 3);
                 Main.myPlayerSanity = Math.Round(100 - Main.myPlayer.field_Public_PlayerSanity_0.field_Public_Single_0, 0).ToString();
@@ -35,7 +35,7 @@ namespace PhasmoHelper
 
         public static void EnableMissions()
         {
-            if (Main.initializedScene > 1 && Main.levelController != null && MissionManager.field_Public_Static_MissionManager_0.field_Public_List_1_Mission_0 != null && CheatToggles.enableBIMissions)
+            if (Main.initializedScene > 1 && Main.levelController != null && MissionManager.field_Public_Static_MissionManager_0.field_Public_List_1_Mission_0 != null && ModToggles.enableBIMissions)
             {
                 int missionNum = 1;
                 Debug.Msg("missions", 3);
