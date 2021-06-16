@@ -20,5 +20,8 @@ Insert | Delete | Right Ctrl | RIGHT arrow: Open GUI
 # Credits
 Some things in readme and code (Mod base) taken from: [C4 Phasmophobia Mod](https://github.com/Cr4nkSt4r/phasmophobia-melon-mod) (`Cr4nkSt4r`)
 
+# How to install
+[MelonLoader installing tutorial](https://www.youtube.com/watch?v=WFUkyPGim0M) by me
+
 # License
 **GNU General Public License 3**
