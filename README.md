@@ -22,6 +22,7 @@ Some things in readme and code (Mod base) taken from: [C4 Phasmophobia Mod](http
 
 # How to install
 [MelonLoader installing tutorial](https://www.youtube.com/watch?v=WFUkyPGim0M) by me
+After installing MelonLoader with latest bypass for your Phasmophobia version delete everything in mod folder and put my mod here!
 
 # License
 **GNU General Public License 3**
