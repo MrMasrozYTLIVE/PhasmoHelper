@@ -18,7 +18,7 @@ Mod cretion date: 24.04.2021
 Insert | Delete | Right Ctrl | RIGHT arrow: Open GUI   
 
 # Credits
-Some things in readme taken from: [C4 Phasmophobia Mod](https://github.com/Cr4nkSt4r/phasmophobia-melon-mod) (`Cr4nkSt4r`)
+Some things in readme and code (Mod base) taken from: [C4 Phasmophobia Mod](https://github.com/Cr4nkSt4r/phasmophobia-melon-mod) (`Cr4nkSt4r`)
 
 # License
 **GNU General Public License 3**
